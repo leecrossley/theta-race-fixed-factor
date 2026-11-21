@@ -2,6 +2,8 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24410794.svg)](https://doi.org/10.5281/zenodo.24410794)
 
+This result is now maintained in [theta-host-split-inert-race](https://github.com/leecrossley/theta-host-split-inert-race/tree/main/results/theta-race-fixed-factor). This repository is archived and keeps its releases and DOI.
+
 Assume the generalised Riemann hypothesis (GRH) for the primitive Dirichlet $L$-functions in the 547/727 race and its base field, including the Riemann zeta function. **$`C=e^{175}`$ works after every starting height $`H\ge1`$.** In the 547/727 split–inert prime-ideal race with $`b=r=2`$, one doubling gains more than $`1.9735\log2`$ and another loses more than that. Both doublings start strictly after $`H`$ and finish before $`CH`$. The constant is about $`10^{76}`$.
 
 For $`K=\mathbf Q(\zeta_{16})^+`$ the counted objects are prime ideals of $`K(\sqrt{397669})`$, classified by splitting in $`K(\sqrt{-547},\sqrt{-727})`$. Write $`S(y)`$ for the normalized inert-minus-split score on $`[y,4y]`$ with the tent weight and exclusions in the proof. A move runs from $`S(y)`$ to $`S(2y)`$. The result bounds both endpoints and permits either ordering. [Statement and proof](PROOF.md) · [Original theta trace](https://github.com/leecrossley/theta-race-short-shifts/blob/483c31f2df2132ed2165620ea55e20e969228bfb/RaceTrace.lean#L83)
